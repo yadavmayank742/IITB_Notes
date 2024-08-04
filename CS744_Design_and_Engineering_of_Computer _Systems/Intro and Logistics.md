@@ -12,7 +12,7 @@
 4. User applications
 5. Integration of different sub-systems
 6. Performance - measurement and improvements
-7. System Design
+7. System Design.
 
 
 
