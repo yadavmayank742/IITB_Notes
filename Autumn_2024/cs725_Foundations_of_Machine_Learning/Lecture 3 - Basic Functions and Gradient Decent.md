@@ -25,6 +25,7 @@ TRAINING DATA $\rightarrow$ LINEAR REGRESSION MODEL $\rightarrow$  ??
 
 ## Closed Form Solution :
 
+
 $$W^* = \text{argmin}_w \frac{1}{n} \Sigma_{i=1}^{n} (y_i - w_ix)^2 ...  \text{complete formula later}$$
 
 
