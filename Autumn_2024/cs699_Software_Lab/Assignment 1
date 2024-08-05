@@ -1,0 +1,67 @@
+/* Reset some basic styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Profile section styling */
+.profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+/* Profile image styling */
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+}
+
+/* Profile info styling */
+.profile-info {
+    flex: 1;
+}
+
+/* Bio section styling */
+.bio {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
