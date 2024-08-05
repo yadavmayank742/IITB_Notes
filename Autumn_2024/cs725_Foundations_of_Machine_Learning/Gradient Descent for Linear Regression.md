@@ -27,6 +27,6 @@ NOTEs:
 
 *too many iterations needed to reach the final solution*
 
->What happend with GD when the step size is too large ?
+>What happens with GD when the step size is too large ?
 
 *Delayed arrival at solution, in worst case, the loss could diverge*
