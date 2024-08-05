@@ -11,12 +11,12 @@ Paper for project and related ideas - [Financial Machine Learning](https://paper
 ---
 # Linear Regression 
 
-*Fitting a plane to 3D Points* - for higher dimensions, it's called **Hyperplane.***
+*Fitting a plane to 3-D Points* - for higher dimensions, it's called **Hyperplane.***
 
 $y = w_0 + w_1x_1+ w_2x_2+ w_3x_3+ ... + w_dx_d + \epsilon$
 
 Here,
-	$w_i$ is Unknown Parameter and $\epsilon$ is **Irreducible Error***.
+	$w_i$ is Unknown Parameter and  $\epsilon$  is **Irreducible Error***.
 
 
 TRAINING DATA $\rightarrow$ LINEAR REGRESSION MODEL $\rightarrow$  ??
@@ -24,5 +24,10 @@ TRAINING DATA $\rightarrow$ LINEAR REGRESSION MODEL $\rightarrow$  ??
 
 
 ## Closed Form Solution :
+
+$$W^* = \text{argmin}_w \frac{1}{n} \Sigma_{i=1}^{n} (y_i - w_ix)^2 ...  \text{complete formula later}$$
+
+
+**Objective :** Transform the data points to a diff dimensionality to enable a better regressions fit.
 
 
