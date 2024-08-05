@@ -1,0 +1,18 @@
+
+*It is a first order iterative algorithm used to find local optima (maxima or minima) of a differentiable function.*
+
+**Gradient** ==  $\nabla_wL$   $\text{complete formula later}$
+**Decent** == since we are interested in *minimizing the loss function*, thus we update $w$ in the ***reverse direction of the gradient***.
+
+Thus we apply **GD** to estimate $w$ which parametrizes a loss function.
+
+
+Template for GD Algo :
+```
+1. Intialize w
+2. Repeat
+	1. Choose a descent direction
+	2. Choose a step size
+	3. Update w using an update rule
+3. Exit, repeat if stopping criteria is met
+```
