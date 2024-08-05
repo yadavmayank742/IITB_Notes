@@ -1,12 +1,12 @@
 
 **Prerequisites :**
 - Probability density functions
-- Refer ***3B1B*** on yoututbe
-- Gilbert Strang - YT and Textbook
+- Refer ***3B1B*** on YouTube
+- **Gilbert Strang** - YT and Textbook
 
 > Project teams can be of 3-4 people *not more*
 
-Paper for project and related ideas - [Financial Machine Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501707)
+Literature Review of [Financial Machine Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501707) for financial project ideas.
 
 ---
 # Linear Regression 
