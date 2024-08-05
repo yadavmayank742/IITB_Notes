@@ -27,7 +27,7 @@ TRAINING DATA $\rightarrow$ LINEAR REGRESSION MODEL $\rightarrow$  ??
 
 Consider the $W^*$
 
-$W^* = \text{argmin}_w \frac{1}{n} \Sigma_{i=1}^{n} (y_i - w_ix)^2 ...  \text{complete formula later}$
+$W^* = \text{argmin}_w \frac{1}{n} \Sigma_{i=1}^{n} (y_i - w_ix)^2 \dots  \text{complete formula later}$
 
 **Objective :** Transform the data points to a diff dimensionality to enable a better regressions fit - this is done using [Basis Function](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs725_Foundations_of_Machine_Learning%2FBasis%20Function)
 
