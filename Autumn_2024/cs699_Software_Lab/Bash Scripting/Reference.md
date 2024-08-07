@@ -5,4 +5,11 @@ Revisiting the bash scripting using [***Unix Programming Environment*** ](https:
 ~ The Unix Programmer's Manual, $2^{nd}$ Edition, $June, 1972$.
 
 1. **[Intro and Background](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs699_Software_Lab%2FBash%20Scripting%2FIntro%20%20and%20Background)**
-2. 
+
+---
+
+## Useful for Command Line :
+1. **[ChatGPT](chat.openai.com)**
+2. **[ExplainShell](https://explainshell.com/)**
+3. **[SS64](https://ss64.com/)**
+4. 

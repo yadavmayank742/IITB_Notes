@@ -32,6 +32,7 @@ Common control characters :
 | $c$            | stops a program immediately, without waiting for it to finish** |
 
 \*tab stops are 8-spaces apart in on UNIX
+
 \*\*`DELETE` and `BREAK` used to serve the same purpose.
 
 ---
