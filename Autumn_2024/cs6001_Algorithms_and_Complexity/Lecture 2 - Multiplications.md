@@ -35,11 +35,9 @@ $4\cdot T(\frac{n}{2})$ : for 4 multiplications, and
 
 $O(n)$ : for 1 addition
  
- This could lead to $T(n) = O(n^2)$
+ This could lead to $T(n) = O(n^2)$ -- That's no better than the usual multiplication.
  
  But if instead of the $4$ multiplications, we can reduce them to $3$, then, the total time spent becomes, $T(n) = 3\cdot T(\frac{n}{2})+ O(n)$, which leads to $T(n) = O(n^{1.585})$.
 
 ---
-# Induction :
-
- 
+# [Induction](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs6001_Algorithms_and_Complexity%2FInduction)
