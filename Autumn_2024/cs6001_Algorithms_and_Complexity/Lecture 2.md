@@ -25,9 +25,8 @@ Assuming $n$ is $even$, In general,
 	$y = y_h \times 10^{\frac{n}{2}} + y_l$
 
 Thus, 
-	$x\times y = (x_h\cdot 10^{\frac{n}{2}} + x_l) \times (y_h \cdot 10^{\frac{n}{2}} + y_l)$
-	
-		$= (x_h \cdot y_h \cdot 10^n) + (x_h \cdot y_l + x_l \cdot y_h)\cdot 10^\frac{n}{2} + x_l\cdot y_l$
+$x\times y = (x_h\cdot 10^{\frac{n}{2}} + x_l) \times (y_h \cdot 10^{\frac{n}{2}} + y_l)$
+$= (x_h \cdot y_h \cdot 10^n) + (x_h \cdot y_l + x_l \cdot y_h)\cdot 10^\frac{n}{2} + x_l\cdot y_l$
 
 Hence, the total time spent, $T(n) = 4\cdot T(\frac{n}{2})+ O(n)$
 
