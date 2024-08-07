@@ -30,9 +30,13 @@ Common control characters :
 | $h$            | backspace                                                       |
 | $i$            | tab - advances the cursor to next tab stop*                     |
 | $c$            | stops a program immediately, without waiting for it to finish** |
+More control sequences at *[console_codes(4) Linux Manual page](https://man7.org/linux/man-pages/man4/console_codes.4.html)*
 
 \*tab stops are 8-spaces apart in on UNIX
 
 \*\*`DELETE` and `BREAK` used to serve the same purpose.
+
+---
+**NOTE :**  *A lot of shit mentioned such as `backspce using <- or #` doesn't work in `zsh`, so take the text with a grain of salt, it was written where there were dial-up connections required*.
 
 ---

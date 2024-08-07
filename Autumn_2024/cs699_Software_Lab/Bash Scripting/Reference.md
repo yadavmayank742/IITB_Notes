@@ -9,7 +9,6 @@ Revisiting the bash scripting using [***Unix Programming Environment*** ](https:
 ---
 
 ## Useful for Command Line :
-1. **[ChatGPT](chat.openai.com)**
+1. **[ChatGPT](https://chat.openai.com)**
 2. **[ExplainShell](https://explainshell.com/)**
 3. **[SS64](https://ss64.com/)**
-4. 
