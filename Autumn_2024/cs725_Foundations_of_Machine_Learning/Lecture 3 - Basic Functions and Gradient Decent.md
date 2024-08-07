@@ -32,7 +32,5 @@ $W^* = \text{argmin}_w \frac{1}{n} \Sigma_{i=1}^{n} (y_i - w_ix)^2 \dots  \text{
 **Objective :** Transform the data points to a diff dimensionality to enable a better regressions fit - this is done using [Basis Function](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs725_Foundations_of_Machine_Learning%2FBasis%20Function)
 
 
-
-
 ## [Gradient Decent](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs725_Foundations_of_Machine_Learning%2FGradient%20Decent%20for%20Linear%20Regression)
 
