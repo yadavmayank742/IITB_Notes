@@ -7,6 +7,7 @@ Starting from previous lecture,
 --
 
 **[Andrey Nikolaevich Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)** questioned what is the [best way](https://www.realclearscience.com/articles/2019/04/10/weve_found_a_quicker_way_to_multiply_really_big_numbers_110939.html) to multiply 2 ***large numbers*** ? 
+
 **[Anatoly Alexeyevich Karatsuba](https://en.wikipedia.org/wiki/Anatoly_Karatsuba)** proposed a [solution](https://mathworld.wolfram.com/KaratsubaMultiplication.html).
 
 ---
