@@ -16,7 +16,7 @@ $$
     \vdots & \vdots & \vdots & \ddots & \vdots\\
     y_{n1} & y_{n2} & y_{n3} & \dots & y_{nn}
 \end{bmatrix}_{n\times n}
-=
+=\\
 \begin{bmatrix}
     z_{11} & z_{12} & z_{13} & \dots & z_{1n} \\
     z_{21} & z_{22} & z_{23} & \dots & z_{2n} \\
