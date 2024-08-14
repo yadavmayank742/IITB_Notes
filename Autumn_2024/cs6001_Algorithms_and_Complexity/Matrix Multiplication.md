@@ -1,5 +1,6 @@
 #matrix_multiplication #strassen_matrix_multiplication
 
+
 $$
 \begin{bmatrix}
     x_{11} & x_{12} & x_{13} & \dots & x_{1n} \\
@@ -25,8 +26,9 @@ $$
 
 
 $z_{ij} = <X_i, Y_j>$
+
 $==\sum^{n}_{k=1}X_i(k)Y_j(k)$
 
 Therefore,  $T(n) = 8T(\frac{n}{2}) + n^2$
-or, $T(n) = \Theta(n^3)$
 
+or, $T(n) = \Theta(n^3)$
