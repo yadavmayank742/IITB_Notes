@@ -3,7 +3,8 @@
 Assume the $n\times n$ matrix multiplication :
 
 
-$$\displaylines{\begin{bmatrix}
+$$\begin{align}
+\begin{bmatrix}
 x_{11} & x_{12} & x_{13} & \dots & x_{1n} \\
 x_{21} & x_{22} & x_{23} & \dots & x_{2n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots\\
@@ -20,7 +21,8 @@ z_{11} & z_{12} & z_{13} & \dots & z_{1n} \\
 z_{21} & z_{22} & z_{23} & \dots & z_{2n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots\\
 z_{n1} & z_{n2} & z_{n3} & \dots & z_{nn}
-\end{bmatrix}_{n\times n}}$$
+\end{bmatrix}_{n\times n}
+\end{align}$$
 
 
 
