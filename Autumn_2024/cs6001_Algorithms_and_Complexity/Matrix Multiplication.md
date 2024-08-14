@@ -22,7 +22,6 @@ z_{21} & z_{22} & z_{23} & \dots & z_{2n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots\\
 z_{n1} & z_{n2} & z_{n3} & \dots & z_{nn}
 \end{bmatrix}_{n\times n}
-$$
 ```
 
 
@@ -33,3 +32,10 @@ $==\sum^{n}_{k=1}X_i(k)Y_j(k)$
 Therefore,  $T(n) = 8T(\frac{n}{2}) + n^2$
 
 or, $T(n) = \Theta(n^3)$
+
+
+Strassen Was able to reduce this from $n^3$ to lower exponents using $7$ equations using DnC.
+
+References :
+1. [Paper 1](https://dl.acm.org/doi/pdf/10.1145/369028.369096)
+2. 
