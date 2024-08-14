@@ -41,3 +41,5 @@ $O(n)$ : for 1 addition
 
 ---
 # [Induction](obsidian://open?vault=Academics&file=IITB_Notes%2FAutumn_2024%2Fcs6001_Algorithms_and_Complexity%2FInduction)
+
+Next class : Fibonacci and 
