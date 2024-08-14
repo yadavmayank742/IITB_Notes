@@ -22,7 +22,7 @@ z_{21} & z_{22} & z_{23} & \dots & z_{2n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots\\
 z_{n1} & z_{n2} & z_{n3} & \dots & z_{nn}
 \end{bmatrix}_{n\times n}
-\end{align}$$
+$$
 ```
 
 
