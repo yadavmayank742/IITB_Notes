@@ -24,3 +24,14 @@ $$
 
 
 
+---
+## Geometric Progression Refresher :
+
+For $A > 0$, 
+
+$$
+1 + A + A^2 + A^3 + \dots +A^k = \begin{cases*}
+k+1 & if $A == 1$,\\
+\frac{A^{k+1} - 1}{A - 1} & otherwise,\\
+\end{cases*}
+$$
