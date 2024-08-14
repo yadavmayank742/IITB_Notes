@@ -8,7 +8,9 @@ For a general form , $T(n) = aT(n/b) + cn^d$
 **THINK** by drawing the recursive tree :
 
 $T(n) = n^d \times (1 + (\frac{a}{b^d}) + (\frac{a}{b^d})^2 + \dots +(\frac{a}{b^d})^k)$
+
 $\approx n^d \cdot (\frac{a}{b^d})^k$         *{using geometric progression}*
+
 $\approx n ^{\log_b a}$ 
 
 
