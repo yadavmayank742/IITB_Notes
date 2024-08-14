@@ -1,5 +1,6 @@
 #matrix_multiplication #strassen_matrix_multiplication
 
+Assume the $n\times n$ matrix multiplication :
 
 $$
 \begin{bmatrix}
