@@ -1,3 +1,5 @@
+> **Note:** This doc is prepared for `Nmap 7.94SVN` (*latest version as of August 2024*).
+
 **Basic Command :** `nmap [Scan Type(s)] [Options] {target specification}`
 
 Example: 
@@ -108,5 +110,4 @@ based on your workflow you may need to scan results to be formatted specifically
   --stylesheet <path/URL>: XSL stylesheet to transform XML output to HTML
   --webxml: Reference stylesheet from Nmap.Org for more portable XML
   --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
-
 ```
