@@ -78,3 +78,35 @@ Example:
   --osscan-guess: Guess OS more aggressively
 ```
 
+
+
+## Target Specification(s) :
+You are not restricted to just provide the IP Address of a target to be scanned, there're variety of options available to specify the target(**s**) i.e. Can pass ***hostnames***, ***IP addresses***, ***networks***, etc.:
+```
+  -iL <inputfilename>: Input from list of hosts/networks
+  -iR <num hosts>: Choose random targets
+  --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
+  --excludefile <exclude_file>: Exclude list from file
+```
+
+
+## Saving the `nmap` output :
+based on your workflow you may need to scan results to be formatted specifically in certain industry standards, they can be specified using the switches:
+```
+  -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIpt kIddi3,
+     and Grepable format, respectively, to the given filename.
+  -oA <basename>: Output in the three major formats at once
+  -v: Increase verbosity level (use -vv or more for greater effect)
+  -d: Increase debugging level (use -dd or more for greater effect)
+  --reason: Display the reason a port is in a particular state
+  --open: Only show open (or possibly open) ports
+  --packet-trace: Show all packets sent and received
+  --iflist: Print host interfaces and routes (for debugging)
+  --append-output: Append to rather than clobber specified output files
+  --resume <filename>: Resume an aborted scan
+  --noninteractive: Disable runtime interactions via keyboard
+  --stylesheet <path/URL>: XSL stylesheet to transform XML output to HTML
+  --webxml: Reference stylesheet from Nmap.Org for more portable XML
+  --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
+
+```
