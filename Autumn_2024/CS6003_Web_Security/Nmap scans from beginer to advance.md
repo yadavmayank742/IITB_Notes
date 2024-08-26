@@ -190,6 +190,7 @@ Scan `scanme.nmap.org` and report
 
 # Intermediate Labs:
 Target : `scanme.nmap.org`, 
+
 *save all the scan results in Grepable and XML Format*
 ## Challenge 1:
 > NSE
@@ -199,11 +200,11 @@ Target : `scanme.nmap.org`,
 > Custom TCP Flags
 
 Target:`scanme.nmap.org`
-0. Which protocol(s) is/are supported by the target ?
-1. Scan by resetting all the TCP Flags. *Hint: `--scanflags`*
-2. Scan by setting all the TCP Flags. *Hint: `--scanflags`*
-3. Scan only by setting `SYN` and `ACK` TCP Flags. *Hint: `--scanflags`*
-4. How many flags are set in TCP Window Scan ?
+1. Which protocol(s) is/are supported by the target ?
+2. Scan by resetting all the TCP Flags. *Hint: `--scanflags`*
+3. Scan by setting all the TCP Flags. *Hint: `--scanflags`*
+4. Scan only by setting `SYN` and `ACK` TCP Flags. *Hint: `--scanflags`*
+5. How many flags are set in TCP Window Scan ?
 
 ## Challenge 3:
 > MAC Spoofing
