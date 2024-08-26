@@ -225,4 +225,4 @@ Target:`scanme.nmap.org`
 
 # References :
 1. [Cheat Sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/).
-2. 
+2. kA6b*w!OjHGr40#*
