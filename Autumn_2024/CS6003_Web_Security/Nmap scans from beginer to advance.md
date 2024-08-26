@@ -162,7 +162,7 @@ Options which take `<time>` are in seconds, or append 'ms' (milliseconds), 's' (
 
 ## Warm-up:
 1. Check your `nmap` version
-2. 
+2. update using `sudo apt install nmap -y` (*NOTE: command specific to Debian*.)
 3. Open the help menu of `nmap`
 4. Which `nmap` scan is based on *[TCP Split Handshake](https://nmap.org/misc/split-handshake.pdf)* ?
 5. How many ports are scanned by 
