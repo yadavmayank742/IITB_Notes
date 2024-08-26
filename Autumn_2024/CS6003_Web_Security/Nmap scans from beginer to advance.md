@@ -1,8 +1,12 @@
 **Basic Command :** `nmap [Scan Type(s)] [Options] {target specification}`
-	Example: 
-	1. `nmap -v -A scanme.nmap.org` : **Verbos** (provides detailed and extensive output or information) and **Aggressive** scan of target *scanme.nmap.org*. 
-	2. `nmap -v -sn 192.168.0.0/16 10.0.0.0/8` : **Verbos** **Ping Scan** (used to be `-sP` in older `nmap` versions, it means, do not scan the ports, just check if a host is alive or not) of *subnet 192.168.0.0/16* and *subnet 10.0.0.0/8* .
-	3. `nmap -v -iR 10000 -Pn -p 80` : **Verbos** scan **port 80** of **10000 Randomly generated IP Addresses** **without checking if the host is alive or not**
+
+Example: 
+	
+1. `nmap -v -A scanme.nmap.org` : **Verbos** (provides detailed and extensive output or information) and **Aggressive** scan of target *scanme.nmap.org*. 
+	
+2. `nmap -v -sn 192.168.0.0/16 10.0.0.0/8` : **Verbos** **Ping Scan** (used to be `-sP` in older `nmap` versions, it means, do not scan the ports, just check if a host is alive or not) of *subnet 192.168.0.0/16* and *subnet 10.0.0.0/8* .
+	
+3. `nmap -v -iR 10000 -Pn -p 80` : **Verbos** scan **port 80** of **10000 Randomly generated IP Addresses** **without checking if the host is alive or not**
 `
 ## Scan Type(s):
 
