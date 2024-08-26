@@ -165,7 +165,7 @@ Options which take `<time>` are in seconds, or append 'ms' (milliseconds), 's' (
 2. update using `sudo apt install nmap -y` (*NOTE: command specific to Debian*.)
 3. Open the help menu of `nmap`
 4. Which `nmap` scan is based on *[TCP Split Handshake](https://nmap.org/misc/split-handshake.pdf)* ?
-5. How many ports are scanned by 
+5. How many ports does `nmap` scan by
 	1. default ?
 	2. `-F` option ?
 6. what is the switch (or flag) to scan all ports on a target?
