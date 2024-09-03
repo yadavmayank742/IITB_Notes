@@ -40,3 +40,4 @@ More control sequences at *[console_codes(4) Linux Manual page](https://man7.org
 **NOTE :**  *A lot of shit mentioned such as `backspce using <- or #` doesn't work in `zsh`, so take the text with a grain of salt, it was written where there were dial-up connections required*.
 
 ---
+
