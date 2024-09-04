@@ -10,4 +10,6 @@ Puru [xv6 Setup Slides](https://www.cse.iitb.ac.in/~puru/courses/autumn2024/lect
 
 
 Similar course [NYU CS 3224](https://cse.engineering.nyu.edu/jsterling/cs3224/)
-Related [homeworks](https://panda.moyix.net/~moyix/cs3224/)
+Related
+- [homework_1](https://panda.moyix.net/~moyix/cs3224/) 
+- [homework_2](https://github.com/kk2849/cs3224-operating-systems/tree/master)
