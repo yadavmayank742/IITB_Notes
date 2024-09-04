@@ -9,3 +9,5 @@ xv6 [Commentary](http://www.lemis.com/grog/Documentation/Lions/) by J Lions and 
 Puru [xv6 Setup Slides](https://www.cse.iitb.ac.in/~puru/courses/autumn2024/lectures/cs744-xv6.pdf) 
 
 
+Similar course [NYU CS 3224](https://cse.engineering.nyu.edu/jsterling/cs3224/)
+Related [homeworks](https://panda.moyix.net/~moyix/cs3224/)
