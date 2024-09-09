@@ -81,5 +81,6 @@
     This way any changes made in the destination directory will take effect on the source directory and vise versa.
 18.  The entry point to an executable image is set to the custom program whereas in general it is the shell.
     Therefore the text after `<image_name>` is treated as shell commands in general.
+    
     Executable images are not that common in the wild but can be very useful in certain cases.
 19. 
