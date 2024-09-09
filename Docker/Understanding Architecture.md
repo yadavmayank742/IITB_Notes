@@ -53,4 +53,18 @@
    
 2.   `--publish <host port>:<container port>` :  it meant any request sent to `<host port>` of your host system will be forwarded to `<container port>` inside the container‌.
 3. To keep a container running in background, you can include the `--detach`, i.e. the container will not stop on closing the terminal.
-4. 
+4. `docker container ls` : to list the **running** containers. The printed `CONTAINER ID` is first 12 characters of the actual `CONTAINER ID` viz actually 64 characters long.
+5. `docker container ls --all`: lists all the containers that have run in the past.
+6. `--name <container name>` : by default the containers have 2 identifiers - a random 64 character long `CONTAINER ID` and a Randomly generated name of 2 words joined by an underscore; Using `--name` we can name the container as per our wish given that the same name is not assigned to some other container.
+7. `docker container rename <container identifier> <new name>` : this renames the container, yields no output on success.
+8. `docker container stop <container identifier>` : to stop the container; `container identifier` can be the `CONTAINER ID` or the `NAME`.
+   
+   The `stop` command shuts down a container gracefully by sending a `SIGTERM` signal. 
+   
+   If the container doesn't stop within a certain period, a `SIGKILL` signal is sent which shuts down the container immediately.
+9. `docker container kill <container identifier>` : used when you want to send a `SIGKILL` signal instead of a `SIGTERM` signal.
+10. `docker container start <container identifier>` : stopped containers remain in your system. If you want you can restart them using this command.
+11. `docker container restart <container identifier>` : reboot a running container.
+    
+	NOTE: both the `start` and `restart` are in same in case of a stopped container.
+12. 
