@@ -77,4 +77,8 @@
     
     Instead of writing `-it` you can be more verbose by writing `--interactive --tty` separately.
 
-17. 
+17. `--volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>` or `-v` instead of `--volume`: This is a  bind mount which lets you form a two way data binding between the content of a local file system directory (source) and another directory inside a container (destination).
+     
+    This way any changes made in the destination directory will take effect on the source directory and vise versa.
+
+18.  
