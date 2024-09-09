@@ -54,3 +54,8 @@ The general command syntax is `docker <object> <command> <options>`, where
 	   Executable images are not that common in the wild but can be very useful in certain cases.
 
 ## Image Manipulation :
+This is on how to create your own `docker` `images`.
+> Use VS Code and [Official Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+> 
+
+
