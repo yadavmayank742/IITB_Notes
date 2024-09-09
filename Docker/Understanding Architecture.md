@@ -76,9 +76,10 @@
 16. `docker container run -it <interactive_image>`: some images (such as `ubuntu`, `fedora`, `python` etc...) are configured to run interactively, i.e. they provide some shell like interface, to interact we need `-it` (`-i` for `--interactive` and `-t` for `--tty`.)
     
     Instead of writing `-it` you can be more verbose by writing `--interactive --tty` separately.
-
 17. `--volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>` or `-v` instead of `--volume`: This is a  bind mount which lets you form a two way data binding between the content of a local file system directory (source) and another directory inside a container (destination).
      
     This way any changes made in the destination directory will take effect on the source directory and vise versa.
-
-18.  
+18.  The entry point to an executable image is set to the custom program whereas in general it is the shell.
+    Therefore the text after `<image_name>` is treated as shell commands in general.
+    Executable images are not that common in the wild but can be very useful in certain cases.
+19. 
