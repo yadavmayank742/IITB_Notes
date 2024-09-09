@@ -1,7 +1,7 @@
 
 ```text
                                                                                                                          Enquire the Registry                          
-                                           ┌─Command sent to daemon─────────────┐                                     ┌─ if no local image found─┐                     
+                                           ┌────── Command sent to daemon ──────┐                                     ┌─ if no local image found─┐                     
                                            │                                    │                                     │                          │                     
                                            │                                    │                                     │                          │                     
                                            │                                    │                                     │                          │                     
@@ -28,4 +28,5 @@
                                                     │                                                       │                                                          
                                                     └───────────────────────────────────────────────────────┘                                                          
 ```
+
 
