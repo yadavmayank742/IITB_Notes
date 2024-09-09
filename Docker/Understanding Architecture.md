@@ -30,3 +30,6 @@
 ```
 
 
+# Docker Commands :
+
+1. `docker run <image name>` : this requests the docker daemon to instantiate image \<image name\> 
