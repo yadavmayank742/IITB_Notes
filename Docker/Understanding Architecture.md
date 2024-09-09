@@ -41,7 +41,9 @@
    
    `<options>` can be any valid parameter that can override the default behavior of the command, like the `--publish` option for port mapping.
 
-2. `docker run <image name>` : this requests the docker daemon to instantiate image `<image name>` .
-	 
-	 The instantiated image is called a "container".
+1. `docker container run <image name>` : this requests the docker daemon to instantiate image `<image name>` .
+   
+   The instantiated image is called a "container".
+   
+   This command is same as `docker run <image name>` in versions before `1.13`. 
 2.   
