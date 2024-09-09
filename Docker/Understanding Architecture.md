@@ -9,7 +9,7 @@
                                            │        │                   │ Docker Daemon─┼──────────┐        │         │                          │                     
                                            │        │                   └───────────────┘          │        │         │          ┌──────┌────────▼────────┐───────┐    
    ┌──────┬───────────────┬──────┐         │        │                                            check      │         │          │      │    Registry     │       │    
-   │      │ Docker Client │      │         │        │   this runs the process called `dockerd`   image      │         │          │      └─────────────────┘       │    
+   │      │ Docker Client │      │         │        │   identified by the process `dockerd`      image      │         │          │      └─────────────────┘       │    
    │      └───────────────┘      │         │        │                                          availability │         │          │                                │    
    │                             │         │        │   It is responsible to execute the           │        │         │          │   (Can be public or private)   │    
    │                             │         │        │   commands issued from  `Docker Client`      │        │         │          │                                │    
