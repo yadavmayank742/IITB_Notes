@@ -66,5 +66,6 @@
 10. `docker container start <container identifier>` : stopped containers remain in your system. If you want you can restart them using this command.
 11. `docker container restart <container identifier>` : reboot a running container.
     
-	NOTE: both the `start` and `restart` are the same in case of a stopped container.
-12. 
+	NOTE: both the `start` and `restart` are the same in case of a stopped container, but for a running container, `start` has no effect.
+12. `docker container create --name <container_name> <image_name>` : creates (and does not RUN) a container from `<image_name>`; this can be run using `docker container start <container_name>`.
+13. 
