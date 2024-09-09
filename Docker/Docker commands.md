@@ -55,7 +55,5 @@ The general command syntax is `docker <object> <command> <options>`, where
 
 ## Image Manipulation :
 This is on how to create your own `docker` `images`.
-> Use VS Code and [Official Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-> 
-
+> Use [VS Code](https://code.visualstudio.com/docs/setup/linux) and [Official Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
