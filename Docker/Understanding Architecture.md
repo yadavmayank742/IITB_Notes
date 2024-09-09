@@ -31,8 +31,17 @@
 
 
 # Docker Commands :
+> Official [reference](https://docs.docker.com/engine/reference/commandline/container/) for the Docker command-line. 
 
-1. `docker run <image name>` : this requests the docker daemon to instantiate image `<image name>` .\ 
-	 The instantiated image is called a "container".
+0. The general command syntax is `docker <object> <command> <options>`, where 
+   
+   `<object>` is the type of Docker object you'll be manipulating - `container`, `image`, `network` or `volume` object.
+   
+   `<command>` indicates the task to be carried out by the daemon, e.g. the `run` command.
+   
+   `<options>` can be any valid parameter that can override the default behavior of the command, like the `--publish` option for port mapping.
+
+2. `docker run <image name>` : this requests the docker daemon to instantiate image `<image name>` .
 	 
-1.  
+	 The instantiated image is called a "container".
+2.   
