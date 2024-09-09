@@ -68,4 +68,13 @@
     
 	NOTE: both the `start` and `restart` are the same in case of a stopped container, but for a running container, `start` has no effect.
 12. `docker container create --name <container_name> <image_name>` : creates (and does not RUN) a container from `<image_name>`; this can be run using `docker container start <container_name>`.
-13. 
+13. `docker container rm <container identifier>` : the stopped containers (called *DANGLING* containers) can occupy space in the disk, thus, to remove them from disk, this command is used. Check the containers using `docker container ls -a`, then choose to remove using their identifiers.
+    
+	Multiple container identifiers can also be provided at once separated by space (no comma.)
+14. `docker container prune` : removes ***ALL*** **dangling** containers at once.
+15. `docker container run --rm <other options> <image_name>`: this will remove the container as soon as the container is stopped therefore no dangling container created.
+16. `docker container run -it <interactive_image>`: some images (such as `ubuntu`, `fedora`, `python` etc...) are configured to run interactively, i.e. they provide some shell like interface, to interact we need `-it` (`-i` for `--interactive` and `-t` for `--tty`.)
+    
+    Instead of writing `-it` you can be more verbose by writing `--interactive --tty` separately.
+
+17. 
