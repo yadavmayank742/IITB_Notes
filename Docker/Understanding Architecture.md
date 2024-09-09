@@ -46,4 +46,12 @@
    The instantiated image is called a "container".
    
    This command is same as `docker run <image name>` in versions before `1.13`. 
-2.   
+   
+   **IMPORTANT NOTE :** 
+	   The order of the options you provide doesn't really matter. 
+	   ***BUT*** One thing that you have to keep in mind in case of the `run` command is that the image name ***must come last***. If you put ***anything after the image name then that'll be passed as an argument to the container entry-point*** and may result in unexpected situations.
+   
+   
+2.   `--publish <host port>:<container port>` :  it meant any request sent to `<host port>` of your host system will be forwarded to `<container port>` inside the container‌.
+3. To keep a container running in background, you can include the `--detach`, i.e. the container will not stop on closing the terminal.
+4. 
