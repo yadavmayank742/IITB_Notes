@@ -32,6 +32,7 @@
 
 # Docker Commands :
 
-1. `docker run <image name>` : this requests the docker daemon to instantiate image `<image name>` .
-	 the instantiated image is called a "container".
-2. 
+1. `docker run <image name>` : this requests the docker daemon to instantiate image `<image name>` .\ 
+	 The instantiated image is called a "container".
+	 
+1.  
