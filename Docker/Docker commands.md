@@ -79,8 +79,10 @@ For the `nmap` image, it shall be running on `Ubuntu`, shall have preinstalled `
 
 -  `RUN` instruction executes the commands inside the container shell.
 
-	Example:
+	Examples:
+	
 	`RUN apt-get update && apt-get install nmap -y` command checks for updated package versions and installs NMAP. 
+	
 	`RUN apt-get clean && rm -rf /var/lib/apt/lists/*` command clears the package cache to remove unnecessary baggage from the image.
 
 - 
