@@ -57,3 +57,30 @@ The general command syntax is `docker <object> <command> <options>`, where
 This is on how to create your own `docker` `images`.
 > Use [VS Code](https://code.visualstudio.com/docs/setup/linux) and [Official Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
+`Docker Image` is a read-only, **FROZEN** copy of a container, they're the template for creating the `Docker Container`. 
+
+To create a `Docker Image`, one shall have a clear picture of the final state of what the `image` will be.
+
+For the `nmap` image, it shall be running on `Ubuntu`, shall have preinstalled `nmap` and shall update it every time the `container` is initialized. 
+
+`Docker Image` creation instructions are mentioned line by line in a file named `Dockerfile`, each line creates a layer of the image.
+
+### Dockerfile :
+
+- Each valid `Dockerfile` starts with a `FROM` instruction which sets the base image, 
+
+	Example: `FROM ubuntu:latest` sets the base as `Ubuntu` and can use all the features such as `apt` package manager.
+
+- `EXPOSE` instructions indicates the port that is to be published as in `--publish` 
+
+	**NOTE:** `EXPOSE` does not mean that we won't have to use the `--publish` option while instantiating the image; we still need it.
+
+	***This instruction is just a documentation for someone who is going to run a container using this image.***
+
+-  `RUN` instruction executes the commands inside the container shell.
+
+	Example:
+	`RUN apt-get update && apt-get install nmap -y` command checks for updated package versions and installs NMAP. 
+	`RUN apt-get clean && rm -rf /var/lib/apt/lists/*` command clears the package cache to remove unnecessary baggage from the image.
+
+- 
