@@ -63,7 +63,29 @@ To create a `Docker Image`, one shall have a clear picture of the final state of
 
 For the `nmap` image, it shall be running on `Ubuntu`, shall have preinstalled `nmap` and shall update it every time the `container` is initialized. 
 
-`Docker Image` creation instructions are mentioned line by line in a file named `Dockerfile`, each line creates a layer of the image.
+`Docker Image` creation instructions are mentioned line by line in a file named `Dockerfile`, each line creates a layer of the image. \[ See blow for **Dockerfile** section to understand important/frequent  instructions\]
+
+1. To build an `image` from `Dockerfile`, run `docker image build .` from the same directory as the `Dockerfile` or you can also specify the path to the `Dockerfile` using `docker build -f <path_to_Dockerfile> .`  \[***NOTE*** : there's a **dot** at the end of both versions of the command]
+
+2. `--tag` can be used to tag an `Docker Image` during `Docker build` command 
+	
+	Example : `docker image build --tag ubuntu_nmap:latest .`
+
+3. `docker image ls` can be used to list `Docker images` on the system
+4. `docker image rm <image identifier>` can be used to remove the image, here `<image identifier>` can be `IMAGE ID` or `image REPOSITORY`.
+5. `image prune` command to cleanup all un-tagged dangling images.
+6. The `--force` or `-f` option skips any confirmation questions; use the `--all` or `-a` option to remove all cached images in your local registry.
+7. To visualize the many layers of an image, you can use the `image history` command.
+
+
+
+
+
+
+
+
+
+
 
 ### Dockerfile :
 
@@ -85,4 +107,17 @@ For the `nmap` image, it shall be running on `Ubuntu`, shall have preinstalled `
 	
 	`RUN apt-get clean && rm -rf /var/lib/apt/lists/*` command clears the package cache to remove unnecessary baggage from the image.
 
-- 
+	The `RUN` instructions are written in `shell` format , but they can as well be written in `exec` format, as the `CMD` command next. For more on [Shell and Exec form](https://docs.docker.com/reference/dockerfile/#shell-and-exec-form).
+	
+- `CMD` instruction sets the default command for the image. It is written in `exec` format.
+
+	Example: `CMD [ "/bin/bash", "-c", "cd /var/www/html; python -m http.server 3434" ]`
+
+- `ENV` sets the environment variable in `<key>=<value>` format \[**NO SPACES before and after** `=`\].
+
+	Format : `ENV <key>=<value> ...`
+	Example:  `ENV MY_NAME="John Doe"` 
+			`ENV MY_NAME="John Doe" MY_DOG=Rex\ The\ Dog  MY_CAT=fluffy`
+
+
+
