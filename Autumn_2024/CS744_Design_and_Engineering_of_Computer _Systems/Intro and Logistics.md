@@ -2,7 +2,7 @@
 
 **Resources :** (From [Prof Mythili Vutukuru](https://www.cse.iitb.ac.in/~mythili/) ; [YouTube](https://www.youtube.com/@mythilivutukuru6136/playlists)) 
 - [DECS Old Course Page](https://www.cse.iitb.ac.in/~mythili/decs/)
-- [DECS Current Course Page](https://www.cse.iitb.ac.in/~puru/courses/autumn2024/labs.html)
+- [DECS Current Course Page](https://www.cse.iitb.ac.in/~puru/courses/autumn2024/)
 - [OS Lectures](https://www.cse.iitb.ac.in/~mythili/os/) ; [OS Open Textbook](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Virtualization and Cloud Computing Lectures](https://www.cse.iitb.ac.in/~mythili/virtcc/)
 
