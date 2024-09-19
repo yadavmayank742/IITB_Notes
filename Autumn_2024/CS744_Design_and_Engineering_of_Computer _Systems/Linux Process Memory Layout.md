@@ -52,33 +52,34 @@ __________________|____________|__________________|_________|___________________
 
 - User-Space Virtual Memory is at lower addresses - the `text`, `data`, and `bss` are loaded from `ELF` during `exec` sys call by the OS. 
 ```plaintext
-			  Higher Mem┌──────────────────┐                       
-						│   argv, environ  │                       
-						├──────────────────┤                       
-						│                  │                       
-						│      STACK       │                       
-						│                  │                       
-						│                  │                       
-				  esp──►└────────┬─────────┘                       
-								 │(grows downwards)                
-								 ▼                                 
-																   
-							 UNALLOCATED                           
-																   
-								 ▲                                 
-								 │(grows upwards)                  
-						┌────────┴─────────┐                       
-						│                  │                       
-						│      HEAP        │                       
-						│                  │                       
-						│                  │                       
-						┼──────────────────┼                       
-						│      .bss        │(Uninitialized data)   
-						┼──────────────────┼                       
-						│      .data       │(Initialized data)     
-						┼──────────────────┼                       
-						│      .text       │(Program Code)         
-			  Lower Mem └──────────────────┘                       
+                                                              
+            Higher Mem┌──────────────────┐                    
+                      │   argv, environ  │                    
+                      ├──────────────────┤                    
+                      │                  │                    
+                      │      STACK       │                    
+                      │                  │                    
+                      │                  │                    
+                esp──►└────────┬─────────┘                    
+                               │(grows downwards)             
+                               ▼                              
+                                                              
+                           UNALLOCATED                        
+                                                              
+                               ▲                              
+                               │(grows upwards)               
+                      ┌────────┴─────────┐                    
+                      │                  │                    
+                      │      HEAP        │                    
+                      │                  │                    
+                      │                  │                    
+                      ┼──────────────────┼                    
+                      │      .bss        │(Uninitialized data)
+                      ┼──────────────────┼                    
+                      │      .data       │(Initialized data)  
+                      ┼──────────────────┼                    
+                      │      .text       │(Program Code)      
+            Lower Mem └──────────────────┘                    
 ```
 
 
