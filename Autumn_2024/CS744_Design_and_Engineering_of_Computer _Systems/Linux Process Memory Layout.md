@@ -1,8 +1,7 @@
 
 Reference : [Linux process address space layout](https://www.kernel.org/doc/Documentation/x86/x86_64/mm.txt)
 
-- Process's Virtual Memry == User Space Virt Mem $\bigcup$ Kernel Space Virt Mem.  
-- User-Space Virtual Memory is at lower addresses - the `text`, `data`, and `bss` are loaded from `ELF` during `exec` sys call by the OS. 
+- Process's Virtual Memory == User Space Virt Mem $\bigcup$ Kernel Space Virt Mem.  
 - Kernel is shared among the processes and is at higher addresses.
 
 The schematics below are from Higher to lower address i.e. top ==  high, low == bottom (using this convention to validate "*stack grows downwards*")
@@ -51,7 +50,7 @@ __________________|____________|__________________|_________|___________________
 
 ```
 
-
+- User-Space Virtual Memory is at lower addresses - the `text`, `data`, and `bss` are loaded from `ELF` during `exec` system call by the OS. 
 ```plaintext
   Higher Mem┌──────────────────┐                       
             │   argv, environ  │                       
